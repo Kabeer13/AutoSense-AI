@@ -1,0 +1,17 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.streamlit/secrets.toml
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Extra model copies in the project root
+/*.joblib
